@@ -433,11 +433,11 @@ int _write (int fd, char *pBuffer, int size)
 
 - #####          安装ozone注意选择 install a new instance
 
-![PixPin_2025-04-21_15-54-10](https://gitee.com/xyxy1100/map/raw/master/img/20250421155416838.png)
+![](C:\Users\12715\Desktop\ALL_DOCUMENT\stm32-cmake-clangd-ozone\Picture\20250421155416838.png)
 
 - ​       安装Jlink（选项和图片保持一致）
 
-![PixPin_2025-04-21_15-54-46](https://gitee.com/xyxy1100/map/raw/master/img/20250421155529391.png)
+![](C:\Users\12715\Desktop\ALL_DOCUMENT\stm32-cmake-clangd-ozone\Picture\20250421155529391.png)
 
 
 
@@ -447,11 +447,11 @@ int _write (int fd, char *pBuffer, int size)
 
 - ##### Winhex锚点：[点这里](https://www.ddooo.com/softdown/20756.htm)，安装位置跟Jlink和ozone一个的位置
 
-- 位置放置![PixPin_2025-04-21_14-30-46](https://gitee.com/xyxy1100/map/raw/master/img/20250421151730076.png)
+- 位置放置![](C:\Users\12715\Desktop\ALL_DOCUMENT\stm32-cmake-clangd-ozone\Picture\20250421151730076.png)
 
 ##### 	步骤：1.先用winhex打开ST-Link Reflash.exe
 
-##### 		2.修改ST-Link Reflash.exe![PixPin_2025-04-21_15-23-02](https://gitee.com/xyxy1100/map/raw/master/img/20250421152306143.png)
+##### 		2.修改ST-Link Reflash.exe![](C:\Users\12715\Desktop\ALL_DOCUMENT\stm32-cmake-clangd-ozone\Picture\20250421152306143.png)
 
 ```
 地址0x2566处的0x3C修改为0x38
@@ -461,25 +461,25 @@ int _write (int fd, char *pBuffer, int size)
 然后ctrl+s保存
 ```
 
-![PixPin_2025-04-21_15-24-45](https://gitee.com/xyxy1100/map/raw/master/img/20250421152448343.png)
+![](C:\Users\12715\Desktop\ALL_DOCUMENT\stm32-cmake-clangd-ozone\Picture\20250421152448343.png)
 
-![PixPin_2025-04-21_15-26-22](https://gitee.com/xyxy1100/map/raw/master/img/20250421152625177.png)
+![](C:\Users\12715\Desktop\ALL_DOCUMENT\stm32-cmake-clangd-ozone\Picture\20250421152625177.png)
 
-![PixPin_2025-04-21_15-27-02](https://gitee.com/xyxy1100/map/raw/master/img/20250421152708217.png)
+![](C:\Users\12715\Desktop\ALL_DOCUMENT\stm32-cmake-clangd-ozone\Picture\20250421152708217.png)
 
-![PixPin_2025-04-21_15-27-40](https://gitee.com/xyxy1100/map/raw/master/img/20250421152744013.png)
+![](C:\Users\12715\Desktop\ALL_DOCUMENT\stm32-cmake-clangd-ozone\Picture\20250421152744013.png)
 
 ##### 破解完成，开始愉快的刷机啦ヾ(≧▽≦*)o
 
 - ###### 双击打开ST-Link Reflash.exe，然后双accpet，跳到以下界面
 
-- ![PixPin_2025-04-21_15-28-58](https://gitee.com/xyxy1100/map/raw/master/img/20250421152859907.png)
+- ![](C:\Users\12715\Desktop\ALL_DOCUMENT\stm32-cmake-clangd-ozone\Picture\20250421152859907.png)
 
 - 先插上我们的Stlink等待设备管理器有stlink出现，然后再命令行输入1：upgrate to J-link,等待进度跑完
 
-- ![PixPin_2025-04-21_15-30-19](https://gitee.com/xyxy1100/map/raw/master/img/20250421153021495.png)
+- ![](C:\Users\12715\Desktop\ALL_DOCUMENT\stm32-cmake-clangd-ozone\Picture\20250421153021495.png)
 
-- ![PixPin_2025-04-21_15-31-00](https://gitee.com/xyxy1100/map/raw/master/img/20250421153102847.png)
+- ![](C:\Users\12715\Desktop\ALL_DOCUMENT\stm32-cmake-clangd-ozone\Picture\20250421153102847.png)
 
 - ##### ps：如果没有出现以上，建议关闭ST-Link Reflash.exe在重新开始刷机
 
@@ -487,29 +487,29 @@ int _write (int fd, char *pBuffer, int size)
 
 ### 步骤：cubemx生成的cmake工程（STM32_Link）,用vscode打开，然后编译得到elf文件，打开ozone，选择elf文件，下载调试
 
-![PixPin_2025-04-21_15-34-23](https://gitee.com/xyxy1100/map/raw/master/img/20250421153443683.png)
+![](C:\Users\12715\Desktop\ALL_DOCUMENT\stm32-cmake-clangd-ozone\Picture\20250421153443683.png)
 
-![PixPin_2025-04-21_15-33-18](https://gitee.com/xyxy1100/map/raw/master/img/20250421153331104.png)
+![](C:\Users\12715\Desktop\ALL_DOCUMENT\stm32-cmake-clangd-ozone\Picture\20250421153331104.png)
 
-![PixPin_2025-04-21_15-33-58](https://gitee.com/xyxy1100/map/raw/master/img/20250421153359573.png)
+![](C:\Users\12715\Desktop\ALL_DOCUMENT\stm32-cmake-clangd-ozone\Picture\20250421153359573.png)
 
-![PixPin_2025-04-21_15-35-10](https://gitee.com/xyxy1100/map/raw/master/img/20250421153517416.png)
+![](C:\Users\12715\Desktop\ALL_DOCUMENT\stm32-cmake-clangd-ozone\Picture\20250421153517416.png)
 
 ##### 然后一路next😊
 
 ###### ps：因为ozone字体很小，需要自己在tool下拉的Preferences里面调节
 
-![PixPin_2025-04-21_15-35-46](https://gitee.com/xyxy1100/map/raw/master/img/20250421153550946.png)
+![](C:\Users\12715\Desktop\ALL_DOCUMENT\stm32-cmake-clangd-ozone\Picture\20250421153550946.png)
 
 连接开发板（我这里是stm32f103c8t6），运行
 
-![PixPin_2025-04-21_15-36-14](https://gitee.com/xyxy1100/map/raw/master/img/20250421153616570.png)
+![](C:\Users\12715\Desktop\ALL_DOCUMENT\stm32-cmake-clangd-ozone\Picture\20250421153616570.png)
 
 ###### 简单写个sin代码，编译生成
 
-![PixPin_2025-04-21_15-36-58](https://gitee.com/xyxy1100/map/raw/master/img/20250421153702801.png)
+![](C:\Users\12715\Desktop\ALL_DOCUMENT\stm32-cmake-clangd-ozone\Picture\20250421153702801.png)
 
-![PixPin_2025-04-21_15-39-29](https://gitee.com/xyxy1100/map/raw/master/img/20250421154101669.png)
+![](C:\Users\12715\Desktop\ALL_DOCUMENT\stm32-cmake-clangd-ozone\Picture\20250421154101669.png)
 
 ## 写在最后（抄抄bin佬的）
 
