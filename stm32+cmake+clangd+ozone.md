@@ -513,7 +513,7 @@ int _write (int fd, char *pBuffer, int size)
 
 ## 写在最后（抄抄bin佬的）
 
-- 如果在使用脚本后，发现代码依旧爆红，请按下`ctrl+shift+p`，输入`clangd`，找到`clangd: Restart Language Server`，使用鼠标点击，或者使用键盘上的方向键选中后按下回车，此时你的代码应该就不会爆红了，而且代码提示和跳转也会恢复正常
+- 如果在使用脚本后，发现代码依旧爆红，请按下`ctrl+shift+p`，输入`clangd`，找到`clangd: Restart Language Server`，使用鼠标点击，或者使用键盘上的方向键选中后按下回车，此时你的代码应该就不会爆红了，而且代码提示和跳转也会恢复正常.
 - 或者你想vx求助，这是神秘代码：XXyy123100
 - 此教程的工程以及markdown文件会上传到github，这是[github](https://github.com/XXYY04)主页
 - author：[Xy](https://space.bilibili.com/523214548?spm_id_from=..0.0)
